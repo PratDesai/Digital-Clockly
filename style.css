@@ -11,7 +11,7 @@ body {
 }
 
 .main {
-  background: #CCC;
+  background: #ECC07C;
   width: 400px;
   height: 175px;
   margin: 100px auto;
@@ -22,24 +22,25 @@ body {
 
 .badge {
   background: #E66357;
-  color: white;
   padding: 5px 10px;
-  width: 96px;
+  position: absolute;
+  text-align: center;
+  left: 40%;
+  top: -15px;
+  color: white;
   font-family: sans-serif;
   font-weight: bold;
-  position: absolute;
-  top: -15px;
-  left: 40%;
   border-radius: 10px;
 }
 
 .clock {
-  background: #EBEBEB ;
-  text-align: center;
+  background: #EBEBEB;
+  height: 100%;
+  width: 100%;
+  text-align: left;
   font-family: Orbitron;
   font-size: 55px;
   padding-top: 25px;
-  height: 100%;
-  margin: auto auto;
-  border-radius: 20px;
+  padding-left: 10%;
+  border-radius: 15px;
 }
